@@ -1,0 +1,112 @@
+.body1H {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+}
+
+.NavH {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logoH {
+  height: 100px;
+  width: 100px;
+}
+.leftH {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.rightH {
+  display: flex;
+  float: right;
+}
+
+.navbarH {
+  margin-top: 45px;
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.navbarH li {
+  display: inline-block;
+}
+
+.navbarH li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 40px;
+}
+
+.navbarH li a:hover {
+  text-decoration: underline;
+}
+
+.btnH {
+  font-family: "Poppins", sans-serif;
+  margin: 40px 50px 0px 30px !important;
+  background-color: transparent;
+  border: 2px solid white !important;
+  border-radius: 3px;
+  color: white !important;
+  width: 120px;
+  height: 40px;
+  padding: 6px 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btnH:hover {
+  background-color: rgb(75, 41, 128);
+  text-decoration: underline;
+}
+
+.regH {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(75, 41, 128);
+  border: rgb(75, 41, 128);
+  margin-top: 20px;
+  border-radius: 3px;
+  color: white;
+  width: 180px;
+  height: 50px;
+  padding: 6px 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.regH:hover {
+  text-decoration: underline;
+  border: 1.5px solid white;
+}
+
+.lineH {
+  margin: 0% 13% 0% 10%;
+  border: 1px solid white;
+  opacity: 0.5;
+}
+
+.h1H {
+  font-family: poppins;
+  height: 20px;
+  font-size: 56px !important;
+  color: white;
+  margin-top: 30px !important;
+  font-weight: 500px !important;
+}
+
+.ContainerH {
+  margin-left: 13%;
+  margin-top: 6%;
+}
+.paraH {
+  padding-top: 20px !important;
+  margin-top: 40px !important;
+  width: 60% !important;
+}
+.pH {
+  color: white;
+  font-family: poppins;
+}

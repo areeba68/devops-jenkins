@@ -1,0 +1,205 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.nav {
+  height: 100%;
+  width: 200px;
+  background-color: rgb(230, 224, 237);
+  box-shadow: 0 4px 8px 0 rgba(108, 14, 133, 0.2),
+    0 6px 20px 0 rgba(70, 9, 108, 0.19);
+  border-top-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.logo {
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+.btn {
+  width: 130px;
+  height: 40px;
+  background-image: linear-gradient(to right, rgb(78, 3, 85), rgb(171, 6, 171));
+  /* background-color: purple; */
+  border-radius: 20px;
+  color: white;
+  border: none;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.btnInactive {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: purple;
+  border: none;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 20px;
+  align-items: center;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  filter: brightness(0) invert(1);
+}
+.iconInactive {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+}
+.btntxt {
+  padding-right: 30px;
+  font-size: 16px;
+  padding-top: 3px;
+  margin-left: 15px;
+  font-family: poppins;
+  color: white;
+}
+.btntxtInactive {
+  padding-right: 30px;
+  font-size: 18px;
+  padding-top: 3px;
+  margin-left: 18px;
+  font-family: poppins;
+}
+.signoutBtn {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(17, 94, 166);
+  border-radius: 20px;
+  color: white;
+  border: none;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.printBtn {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(17, 94, 166);
+  border-radius: 20px;
+  color: white;
+  border: none;
+  margin-right: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.editBtn {
+  width: 120px;
+  height: 35px;
+  background-color: rgb(17, 94, 166);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-right: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.routeBtn {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(17, 94, 166);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-right: 0px;
+  justify-content: center;
+  float: right;
+}
+.challancombine{
+  display: flex;
+}
+/* Dashboard css */
+.Container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(249, 248, 251);
+}
+.Container1 {
+  height: 90%;
+  width: 80%;
+  /* background-color: rgb(53, 0, 158); */
+  margin-top: 40px;
+  margin-left: 50px;
+}
+p{
+  font-family: poppins;
+  color: purple;
+  
+}
+.container2 {
+  display: flex;
+}
+.Container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.notification {
+  height: 60px;
+  width: 60px;
+}
+.accPic {
+  height: 35px;
+  width: 35px;
+  margin: 5%;
+}
+.container-teams{
+  display: flex;
+}
+
+.route-table{
+  width: 95%;
+  margin-bottom: 5%;
+}
+th{
+  background-color: #4b2980;
+  color: white;
+  height: 55px;
+  border-radius: 1px;
+  padding: 25px;
+  font-size: 22px;
+}
+.column1{
+background-color: #F1F1F1;
+color: #4b2980;
+width: 15%;
+padding: 20px;
+}
+.column2{
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.btn-primary  {
+  background-color: #4b2980 !important;
+  color: white !important;
+  border-color: #4b2980;
+  width: 20.5%;
+  height: 30px;
+  float: top;
+  margin-top: 1.5%;
+  border-radius: 5px;
+}
